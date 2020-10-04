@@ -7,42 +7,86 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">   
+ <title>THE BAND</title>
+    
+        <style>
+.centerdiv{
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: ;
+    margin: 2px 4px px 3px; 
+}
+r{
+    height: 100px;
+    width:  100px;
+    background-color: #f5f6fa;
+    border-radius: 50px;
+    text-align: center;
+    margin: 10px;
+    line-height: 100px;
+    box-shadow: 2px 4px 3px 3px  #dcdde1;
+    
+}
+r i{
+     transition: all 0.3s linear;
+}
+ r:hover i{
+  transform: scale(1.4);
+}
+.fa-instagram{
+ color: #e84393;
+}
 
-    <title>Hello, world!</title>
-  </head>
+.fa-youtube{
+  color: #e84118;
+}
+.fa-linkdin{
+ color: #0097e6;
+}
+.fa-teitter{
+  color: #0097e6 
+}    
+</style>
+    
+    </head>
   <body>
-   <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark pb-2">
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">HOME <span class="sr-only">(current)</span></a>
+        <nav class="navbar navbar-expand-lg navbar navbar-dark bg-dark ">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+       <span class="navbar-toggler-icon"></span>
+  </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 pb-2 ">
+ <li class="nav-item active">
+       <a class="nav-link" href="#">HOME<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
         <a class="nav-link" href="#">BAND</a>
       </li>
-        
-      <li class="nav-item">
+ <li class="nav-item">
         <a class="nav-link" href="#">TOUR</a>
       </li>
-   
-      <li class="nav-item">
+ <li class="nav-item">
         <a class="nav-link" href="#">CONTACT</a>
       </li>
  <li class="nav-item">
         <a class="nav-link" href="#">MORE</a>
-      
-        </a>
-       </ul>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
    <form class="form-inline my-2 my-lg-0">
-      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-      
+         <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
     </form>
+ </nav>
+</div>
     
-  </div>
-</nav>
-         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+ <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
   <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+     <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
     <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
   </ol>
@@ -50,24 +94,26 @@
     <div class="carousel-item active">
       <img class="d-block w-100" src="yvette-de-wit-NYrVisodQ2M-unsplash.jpg" alt="First slide">
     <div class="carousel-caption d-none d-md-block">
-   <h3>Los Angeles</h3>
-      <p><b>We had the best time playing at Venice Beach!</b></p> 
+<div class"pk">  
+ <h3 class="animate__animated animate__backInDown">Los Angeles</h3>
+      <p class="animate__animated animate__heartBeat"><b>We had the best time playing at Venice Beach!</b></p> 
+</div>
   </div>
     </div>
 
     <div class="carousel-item">
       <img class="d-block w-100" src="austin-neill-hgO1wFPXl3I-unsplash.jpg" alt="Second slide">
     <div class="carousel-caption d-none d-md-block">
-      <h3>New York</h3>
-      <p><b>The atmosphere in New York is lorem ipsum.</b></p>
+      <h3 class="animate__animated animate__backInDown">New York</h3>
+      <p class="animate__animated animate__heartBeat"><b>The atmosphere in New York is lorem ipsum.</b></p>
 </div> 
     </div>
 
     <div class="carousel-item">
       <img class="d-block w-100" src="marc-olivier-paquin-2_RQhbu0ZDQ-unsplash.jpg" alt="Third slide">
 <div class="carousel-caption d-none d-md-block">
-      <h3>Chicago</h3>
-      <p><b>Thank you, Chicago - A night we won't forget.</b></p> 
+      <h3 class="animate__animated animate__backInDown">Chicago</h3>
+      <p class="animate__animated animate__heartBeat"><b>Thank you, Chicago - A night we won't forget.</b></p> 
 </div> 
     </div>
   </div>
@@ -79,14 +125,11 @@
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-
 </div>
-
-<div class="card pt-5 "> 
-
+        <div class="card pt-5 "> 
 <center>
- <div class="card-container card-content text-center card-padding-64" style="max-width:800px" id="band">
-    <h2 class="card-wide">THE BAND</h2>
+     <div class="card-container card-content text-center card-padding-64" style="max-width:800px" id="band">
+    <h2 class="card-wide animate__animated animate__heartBeat">THE BAND</h2>
     <p class="card-opacity"><i>We love music</i></p>
     <p class="text-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
       ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
@@ -147,7 +190,7 @@
             <p class="text-opacity">Fri 27 Nov 2016</p>
             <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
      
-       <a href="#" class="btn btn-primary">Buy Tickets </a>
+       <a href="#" class="btn btn-primary animate__animated animate__heartBeat">Buy Tickets </a>
     </div>
   </div>
   <div class="card">
@@ -156,7 +199,7 @@
        <p><b>Paris</b></p>
             <p class="w3-opacity">Sat 28 Nov 2016</p>
             <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
-       <a href="#" class="btn btn-primary">Buy Tickets </a>
+       <a href="#" class="btn btn-primary animate__animated animate__heartBeat">Buy Tickets </a>
     </div>
   </div>
   <div class="card">
@@ -166,13 +209,12 @@
             <p class="w3-opacity">Sun 29 Nov 2016</p>
             <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
       
- <a href="#" class="btn btn-primary">Buy Tickets </a>
+ <a href="#" class="btn btn-primary animate__animated animate__heartBeat">Buy Tickets </a>
     </div>
   </div>
 </div>
 </div>
 </div>
-
 
 <div class="container pt-5 pb-5 ">
   <div class="row">
@@ -217,10 +259,25 @@
   </div>
 </div>
 
+<footer class="blockquote-footer text-right "><b>darshan kakpure<cite title="Source Title">Source Title<b></cite></footer>
 
-<footer class="blockquote-footer text-right mb-5">darshan kakpure<cite title="Source Title">Source Title</cite></footer>
-
-
+<div class="centerdiv">
+<r href="#">
+<i class="fa fa-2x fa-facebook"></i>
+</r>
+<r href="#">
+<i class="fa fa-2x fa-instagram"></i>
+</r>
+<r href="#">
+<i class="fa fa-2x fa-youtube"></i>
+</r>
+<r href="#">
+<i class="fa fa-2x fa-twitter"></i>
+</r>
+<r href="#">
+<i class="fa fa-2x fa-linkedin"></i>
+</r>
+</div>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
